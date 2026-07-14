@@ -4,7 +4,7 @@ CREATE TABLE tasks
     text           TEXT      NOT NULL,
     language       VARCHAR   NOT NULL,
     status         VARCHAR   NOT NULL,
-    corrected_text TEXT      NOT NULL,
-    error_message  TEXT      NOT NULL,
+    corrected_text TEXT,
+    error_message  TEXT,
     created_at     TIMESTAMP NOT NULL
 )

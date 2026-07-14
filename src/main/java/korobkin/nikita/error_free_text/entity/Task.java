@@ -3,10 +3,7 @@ package korobkin.nikita.error_free_text.entity;
 import jakarta.persistence.*;
 import korobkin.nikita.error_free_text.entity.enums.TaskLanguage;
 import korobkin.nikita.error_free_text.entity.enums.TaskStatus;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.time.LocalDateTime;
@@ -18,6 +15,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @Getter
 @Setter
+@Builder
 public class Task {
 
     @Id
