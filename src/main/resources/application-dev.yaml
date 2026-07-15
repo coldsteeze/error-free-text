@@ -3,3 +3,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/error_free_text
     username: postgres
     password: postgres
+
+scheduler:
+  task-processing:
+    fixed-delay: 10000
