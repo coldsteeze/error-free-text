@@ -12,3 +12,7 @@ spring:
   liquibase:
     enabled: true
     change-log: classpath:/db/changelog/db.changelog-master.xml
+
+yandex:
+  speller:
+    url: https://speller.yandex.net
